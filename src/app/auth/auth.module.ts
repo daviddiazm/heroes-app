@@ -5,6 +5,7 @@ import { LoginPageComponent } from './pages/login-page/login-page.component';
 import { RegisterPageComponent } from './pages/register-page/register-page.component';
 import { LayoutPageComponent } from './pages/layoutPage/layoutPage.component';
 import { MaterialModule } from '../material/material.module';
+import { AuthService } from './services/auth.service';
 
 
 
@@ -12,7 +13,7 @@ import { MaterialModule } from '../material/material.module';
   declarations: [
     LoginPageComponent,
     RegisterPageComponent,
-    LayoutPageComponent
+    LayoutPageComponent,
   ],
   imports: [
     MaterialModule,
