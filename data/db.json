@@ -166,6 +166,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "Z04O1aD",
+      "superhero": "Invincible",
+      "publisher": "Marvel comics",
+      "alter_ego": "Marck Grayson",
+      "first_appearance": "Invincible #1",
+      "characters": "Marck Grayson",
+      "alt_img": "https://cdn.imagecomics.com/assets/i/releases/1038273/invincible-tp-new-edition-vol-5_6cd5978141.jpg"
     }
   ]
 }

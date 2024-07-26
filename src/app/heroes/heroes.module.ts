@@ -12,6 +12,7 @@ import { HttpClient, provideHttpClient } from '@angular/common/http';
 import { HeroCardComponent } from './components/hero-card/hero-card.component';
 import { HeroImagePipe } from './pipes/heroImage.pipe';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ConfimDialogComponent } from './components/confim-dialog/confim-dialog.component';
 
 
 @NgModule({
@@ -22,8 +23,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     NewPageComponent,
     SearchPageComponent,
     HeroCardComponent,
+    ConfimDialogComponent,
     // pipes
-    HeroImagePipe
+    HeroImagePipe,
   ],
   imports: [
     CommonModule,
